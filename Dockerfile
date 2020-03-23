@@ -50,4 +50,4 @@ RUN echo PATH=\"\$HOME/.local/bin:\$PATH\" >> $HOME/.profile \
 EXPOSE 8899
 
 ENTRYPOINT ["/bin/bash", "-l"]
-CMD ["tutorials/run_jupyter_docker.sh"]
+
